@@ -14,6 +14,28 @@
 }
 
 .illustration{
-  width: 790px;
-  margin: 120px 50px;
+  width: 690px;
+  margin: 120px 10px;
+}
+
+.cards{
+  flex-wrap: wrap;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tech{
+  text-align: center;
+  padding: 50px;
+}
+
+.tech h1{
+  padding: 25px 0;
+}
+
+.tech > main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
