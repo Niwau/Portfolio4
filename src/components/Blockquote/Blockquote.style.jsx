@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     margin-top: 50px ;
+    margin-bottom: 25px;
 `
 
 export const Title = styled.h1`

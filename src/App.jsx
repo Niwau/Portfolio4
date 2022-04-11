@@ -1,6 +1,6 @@
 import './App.css'
 import Blockquote from './components/Blockquote/Blockquote'
-import Button from './components/Button/Button'
+import Link from './components/Link/Link'
 import Card from './components/Card/Card'
 import Tech from './components/Tech/Tech'
 
@@ -19,12 +19,12 @@ function App() {
             TitleColor = "#3267B2"
             DescriptionColor = "#484848"
           />
-          <Button text = "COMEÇAR"/>
+          <Link link="#projetos" text = "COMEÇAR"/>
         </blockquote>
         <img className="illustration" src="../images/undraw_welcome_cats_thqn.svg" alt="Welcome-Cats" />
       </div>
 
-      <div className="default" style={{background: "#3267B2"}}>
+      <div id='projetos' className="default" style={{background: "#3267B2"}}>
         <img className="illustration" src="../images/undraw_hiring_re_yk5n.svg" alt="hiring" />
         <blockquote>
           <Blockquote
@@ -98,8 +98,8 @@ function App() {
             TitleColor = "#3267B2"
             DescriptionColor = "#484848"
           />
-          <Button text = "DOWNLOAD"/>
-        </blockquote>
+          <Link text = "DOWNLOAD"/>
+          </blockquote>
         <img className="illustration" src="../images/undraw_good_team_re_j1kc.svg" alt="Welcome-Cats" />
       </div>
 

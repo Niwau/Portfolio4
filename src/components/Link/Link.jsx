@@ -1,10 +1,10 @@
 import React from 'react'
-import {ButtonStyled} from './Button.style'
+import {Link} from './Link.style'
 
 export default function Button(props) {
   return (
     <div>
-        <ButtonStyled>{props.text}</ButtonStyled>
+        <Link href={props.link} >{props.text}</Link>
     </div>
   )
 }
