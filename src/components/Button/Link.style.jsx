@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Link = styled.a`
+    margin-left: 50px;
+    margin-right: 50px;
     text-decoration: none;
     padding: 9px 38px;
     border: none;

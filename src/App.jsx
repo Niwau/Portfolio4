@@ -1,6 +1,6 @@
 import './App.css'
 import Blockquote from './components/Blockquote/Blockquote'
-import Link from './components/Link/Link'
+import Link from './components/Button/Link'
 import Card from './components/Card/Card'
 import Tech from './components/Tech/Tech'
 
@@ -67,7 +67,7 @@ function App() {
       </div>
 
       <div className='tech' style={{background:"#2761B3"}}>
-        <h1 style={{color: "white", fontSize: "64px"}}>ESTUDANDO</h1>
+        <h1 style={{color: "white"}}>ESTUDANDO</h1>
         <main>
           <Tech src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt = "html"/>
           <Tech src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"  alt = "css"/>
@@ -79,7 +79,7 @@ function App() {
       </div>
 
       <div className='tech' style={{background:"#1553AA"}}>
-        <h1 style={{color: "white", fontSize: "64px"}}>INTERESSES</h1>
+        <h1 style={{color: "white"}}>INTERESSES</h1>
         <main>
           <Tech src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"  alt = "postgreesql"/>
           <Tech src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"  alt = "typescript"/>
